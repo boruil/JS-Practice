@@ -1,4 +1,10 @@
+
 var userChoice = prompt("Do you choose rock, paper or scissors?");
+
+while ( !(userChoice === "rock" || userChoice === "paper" || userChoice === "scissors")) {
+    userChoice = prompt("The choice was not valid, enter a valid choice please: ");    
+}
+
 var computerChoice = Math.random();
 if (computerChoice < 0.34) {
 	computerChoice = "rock";
