@@ -1,3 +1,4 @@
+// have not change to play with four options
 
 var userChoice = prompt("Do you choose rock, paper or scissors?");
 
